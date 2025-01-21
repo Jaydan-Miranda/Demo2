@@ -11,7 +11,7 @@ namespace Demo2
         static void Main(string[] args)
         {
             //prints the prompt for user to enter a input
-            Console.WriteLine("Please enter an even or odd integer. ");
+            Console.WriteLine("Please enter an integer. ");
 
             //creates the variable "number" and converts the user input to an integer
             int number = Convert.ToInt32(Console.ReadLine());
@@ -27,7 +27,7 @@ namespace Demo2
                 Console.WriteLine("The number is odd.");
             }
 
-            //is the end of the code
+            //is the end of the code and allows user to view results
             Console.ReadLine();
         }
     }
